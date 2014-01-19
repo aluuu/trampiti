@@ -8,7 +8,7 @@ Basic usage in REPL:
 
     user=> (require '[trampiti.core :as t])
     user=> (let [crypsy (t/->Cryptsy "api-key" "api-secret")]
-               (c/market-data crypsy :all))
+               (t/market-data crypsy :all))
 
 Full list of API methods you can see at [Cryptsy API docs](https://www.cryptsy.com/pages/api).
 
